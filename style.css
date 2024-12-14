@@ -1,0 +1,106 @@
+div{
+    background-color: rgb(255, 255, 255);
+}
+td{
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+.BordaTabela{
+    border: 1px solid;
+}
+.LM{
+    display: flex;
+    background-color: #cfcdcd63;
+    height: 75px;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 3;
+    margin: 5px;
+    width: 219px;
+}
+menu{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 75px;
+    width: 100%;
+    z-index: 2;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.menu-itens{
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    display: inline-block;
+}
+.menu-itens:hover{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#telaInicial{
+    height: 500px;
+    width: 500px;
+}
+#carouselProd{
+    height: 500px;
+    width: 500px;
+}
+#Legenda{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+.Cards{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card1:hover{
+    background-color: rgba(255, 166, 0, 0.5);
+    border-radius: 5px;
+}
+.card2:hover{
+    background-color: rgba(0, 119, 255, 0.5);
+    border-radius: 5px;
+}
+.card3:hover{
+    background-color: rgba(165, 42, 42, 0.5);
+    border-radius: 5px;
+}
+.imgg1{
+    width: 100px;
+    height: 187px;
+}
+.imgtesso{
+    width: 100px;
+    height: 187px;
+}
+.imgg2{
+    width: 100px;
+    height: 187px;
+}
+.caixa1{
+    width: 850px;
+    padding:15px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 5px;
+}
